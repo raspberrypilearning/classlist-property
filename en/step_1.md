@@ -6,7 +6,8 @@ For example, you can toggle the class on an HTML element to add it if it is not 
 ---
 language: js
 filename: script.js
-line_numbers: true
+line_numbers: false
+line_highlights: 5
 ---
    
    // Light mode function 
