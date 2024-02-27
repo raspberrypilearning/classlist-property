@@ -1,59 +1,44 @@
-## Introduction
+The `classList` property in JavaScript is used to interact with the class attributes of an HTML element. It provides a set of functions for adding, removing, toggling, and checking the presence of CSS classes on an element. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+For example, you can toggle the class on an HTML element to add it if it is not present and remove if it is already present.
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
+language: js
+filename: script.js
+line_numbers: true
 ---
-### Hardware
+   
+   // Light mode function 
+  function changeLightMode(){
+      var isLightMode = lightModeToggle.checked;
 
-+ A computer or tablet capable of running Scratch 3
+      document.body.classList.toggle("light-mode", isLightMode);
 
-### Software
+  }
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+--- /code ---
 
-### Downloads
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+These are some of the functions and how the `classList` property works:
 
---- /collapse ---
++ Accessing classList:
+`element.classList` returns a list representing the class attribute of the specified element.
 
---- collapse ---
----
-title: What you will learn
----
++ Adding a Class:
+`classList.add("className")` adds the specified class to the element. If the class already exists, it is ignored.
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ Removing a Class:
+`classList.remove("className")` removes the specified class from the element.
 
---- /collapse ---
++ Toggling a Class:
+`classList.toggle("className")` toggles the presence of the specified class. If the class is present, it is removed; otherwise, it is added.
 
---- collapse ---
----
-title: Additional information for educators
----
++ Checking if a Class Exists:
+`classList.contains("className")` returns a Boolean confirming whether the specified class is present on the element.
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
++ Replacing Classes:
+`classList.replace("oldClass", "newClass")` replaces the specified old class with a new one.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
++ Multiple Classes:
+Multiple classes can be added or removed simultaneously by providing multiple arguments to add or remove methods.
