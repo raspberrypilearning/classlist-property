@@ -18,20 +18,20 @@ function changeLightMode(){
 
 These are some of the methods that can be used with the `classList` property.
 
-+ Accessing classList:
++ Access classList:
 `element.classList` returns a list of the class attributes of the element.
 
-+ Adding a class:
++ Add a class:
 `classList.add("className")` adds the specified class to the element. If the class already exists, it is ignored.
 
-+ Removing a class:
++ Remove a class:
 `classList.remove("className")` removes the specified class from the element.
 
-+ Toggling a class:
++ Toggle a class:
 `classList.toggle("className")` toggles the presence of the specified class. If the class is present, it is removed; otherwise, it is added.
 
-+ Checking if a class exists:
++ Check if a class exists:
 `classList.contains("className")` returns a Boolean (true/false) showing whether the specified class is present on the element.
 
-+ Replacing classes:
++ Replace classes:
 `classList.replace("oldClass", "newClass")` replaces the specified old class with a new one.
