@@ -1,4 +1,4 @@
-The `classList` property in JavaScript is used to add, remove, toggle, and check the presence of CSS classes on an element.
+La propriété `classList` en JavaScript est utilisée pour ajouter, supprimer, activer/désactiver et vérifier la présence de classes CSS sur un élément.
 
 ## --- code ---
 
@@ -8,7 +8,7 @@ line_numbers: false
 line_highlights: 5
 -------------------------------------------------------
 
-// Light mode function
+// Fonction Light Mode
 function changeLightMode(){
 var isLightMode = lightModeSwitch.checked;
 document.body.classList.toggle("light-mode");
@@ -16,22 +16,22 @@ document.body.classList.toggle("light-mode");
 
 \--- /code ---
 
-These are some of the methods that can be used with the `classList` property.
+Voici quelques-unes des méthodes qui peuvent être utilisées avec la propriété `classList`.
 
-- Accessing classList:
-  `element.classList` returns a list of the class attributes of the element.
+- Accéder à classList :
+  `element.classList` renvoie une liste des attributs de classe de l'élément.
 
-- Adding a class:
-  `classList.add("className")` adds the specified class to the element. If the class already exists, it is ignored.
+- Ajouter une classe :
+  `classList.add("className")` ajoute la classe spécifiée à l'élément. Si la classe existe déjà, elle est ignorée.
 
-- Removing a class:
-  `classList.remove("className")` removes the specified class from the element.
+- Supprimer une classe :
+  `classList.remove("className")` supprime la classe spécifiée de l'élément.
 
-- Toggling a class:
-  `classList.toggle("className")` toggles the presence of the specified class. If the class is present, it is removed; otherwise, it is added.
+- Activer/désactiver une classe :
+  `classList.toggle("className")` active/désactive la présence de la classe spécifiée. Si la classe est présente, elle est supprimée ; sinon, elle est ajoutée.
 
-- Checking if a class exists:
-  `classList.contains("className")` returns a Boolean (true/false) showing whether the specified class is present on the element.
+- Vérifier si une classe existe :
+  `classList.contains("className")` renvoie un booléen (vrai/faux) indiquant si la classe spécifiée est présente sur l'élément.
 
-- Replacing classes:
-  `classList.replace("oldClass", "newClass")` replaces the specified old class with a new one.
+- Remplacer des classes :
+  `classList.replace("oldClass", "newClass")` remplace l'ancienne classe spécifiée par une nouvelle.
