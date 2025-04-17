@@ -18,20 +18,20 @@ document.body.classList.toggle("light-mode");
 
 Voici quelques-unes des méthodes qui peuvent être utilisées avec la propriété `classList`.
 
-- Accéder à classList :
-  `element.classList` renvoie une liste des attributs de classe de l'élément.
+- Access classList:
+  `element.classList` returns a list of the class attributes of the element.
 
-- Ajouter une classe :
-  `classList.add("className")` ajoute la classe spécifiée à l'élément. Si la classe existe déjà, elle est ignorée.
+- Add a class:
+  `classList.add("className")` adds the specified class to the element. Si la classe existe déjà, elle est ignorée.
 
-- Supprimer une classe :
-  `classList.remove("className")` supprime la classe spécifiée de l'élément.
+- Remove a class:
+  `classList.remove("className")` removes the specified class from the element.
 
-- Activer/désactiver une classe :
-  `classList.toggle("className")` active/désactive la présence de la classe spécifiée. Si la classe est présente, elle est supprimée ; sinon, elle est ajoutée.
+- Toggle a class:
+  `classList.toggle("className")` toggles the presence of the specified class. Si la classe est présente, elle est supprimée ; sinon, elle est ajoutée.
 
-- Vérifier si une classe existe :
-  `classList.contains("className")` renvoie un booléen (vrai/faux) indiquant si la classe spécifiée est présente sur l'élément.
+- Check if a class exists:
+  `classList.contains("className")` returns a Boolean (true/false) showing whether the specified class is present on the element.
 
-- Remplacer des classes :
-  `classList.replace("oldClass", "newClass")` remplace l'ancienne classe spécifiée par une nouvelle.
+- Replace classes:
+  `classList.replace("oldClass", "newClass")` replaces the specified old class with a new one.
