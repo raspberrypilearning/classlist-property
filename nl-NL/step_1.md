@@ -18,8 +18,8 @@ document.body.classList.toggle("light-mode");
 
 Dit zijn enkele methoden die kunnen worden gebruikt met de eigenschap `classList`.
 
-- Access classList:
-  `element.classList` returns a list of the class attributes of the element.
+- Toegang tot classList:
+  `element.classList` retourneert een lijst met de klassekenmerken van het element.
 
 - Add a class:
   `classList.add("className")` adds the specified class to the element. Als de klasse al bestaat, wordt deze genegeerd.
