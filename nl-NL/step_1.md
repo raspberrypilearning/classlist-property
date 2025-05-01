@@ -19,18 +19,18 @@ function changeLightMode(){
 Dit zijn enkele methoden die kunnen worden gebruikt met de eigenschap `classList`.
 
 - Toegang tot classList:
-  `element.classList` retourneert een lijst met de klassen kenmerken van het element.
+  `element.classList` retourneert een lijst met de klassekenmerken van het element.
 
-- Een klasse toevoegen:
+- Voeg een klasse toe:
   `classList.add("className")` voegt de opgegeven klasse toe aan het element. Als de klasse al bestaat, wordt deze genegeerd.
 
-- Een klasse verwijderen:
+- Verwijder een klasse:
   `classList.remove("className")` verwijdert de opgegeven klasse uit het element.
 
-- Een klasse in- of uitschakelen:
+- Schakel een klasse in of uit:
   `classList.toggle("className")` schakelt de aanwezigheid van de opgegeven klasse in of uit. Als de klasse aanwezig is, wordt deze verwijderd; anders wordt deze toegevoegd.
 
-- Controleren of een klasse bestaat:
+- Controleer of een klasse bestaat:
   `classList.contains("className")` retourneert een Booleaanse waarde (true/false) die aangeeft of de opgegeven klasse aanwezig is in het element.
 
-- Een klasse vervangen: `element.classList.replace("oldClass", "newClass")` vervangt de opgegeven oude klasse door een nieuwe.
+- Vervang klassen: `element.classList.replace("oldClass", "newClass")` vervangt de opgegeven oude klasse door een nieuwe.
