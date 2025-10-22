@@ -1,4 +1,4 @@
-The `classList` property in JavaScript is used to add, remove, toggle, and check the presence of CSS classes on an element.
+JavaScript 中的 `classList` 属性用于添加、删除、切换和检查元素上 CSS 类的存在。
 
 ## --- code ---
 
@@ -8,7 +8,7 @@ line_numbers: false
 line_highlights: 5
 -------------------------------------------------------
 
-// Light mode function
+//灯光模式函数
 function changeLightMode(){
 var isLightMode = lightModeSwitch.checked;
 document.body.classList.toggle("light-mode");
@@ -16,22 +16,22 @@ document.body.classList.toggle("light-mode");
 
 \--- /code ---
 
-These are some of the methods that can be used with the `classList` property.
+这些是可以与 `classList` 属性一起使用的一些方法。
 
-- Access classList:
-  `element.classList` returns a list of the class attributes of the element.
+- 访问 classList：
+  `element.classList` 返回元素的类属性列表。
 
-- Add a class:
-  `classList.add("className")` adds the specified class to the element. If the class already exists, it is ignored.
+- 添加一个类：
+  `classList.add("className")` 将指定的类添加到元素。 如果该类已经存在，则会被忽略。
 
-- Remove a class:
-  `classList.remove("className")` removes the specified class from the element.
+- 删除一个类：
+  `classList.remove("className")` 从元素中删除指定的类。
 
-- Toggle a class:
-  `classList.toggle("className")` toggles the presence of the specified class. If the class is present, it is removed; otherwise, it is added.
+- 切换一个类：
+  `classList.toggle("className")` 切换指定类的存在。 如果该类存在，则将其删除；否则，则添加。
 
-- Check if a class exists:
-  `classList.contains("className")` returns a Boolean (true/false) showing whether the specified class is present on the element.
+- 检查类是否存在：
+  `classList.contains("className")` 返回一个布尔值 (true/false)，显示元素上是否存在指定的类。
 
-- Replace classes:
-  `classList.replace("oldClass", "newClass")` replaces the specified old class with a new one.
+- 替换类：
+  `classList.replace("oldClass", "newClass")` 用新类替换指定的旧类。
