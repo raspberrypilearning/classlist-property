@@ -1,10 +1,10 @@
-title: Manipulate CSS properties
+title: 操作 CSS 属性
 hero_image: images/banner.png
-description: Manipulate CSS properties of an HTML element
+description: 操作 HTML 元素的 CSS 属性
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
   - 
-    title: Manipulate CSS properties of an HTML element
+    title: 操作 HTML 元素的 CSS 属性
